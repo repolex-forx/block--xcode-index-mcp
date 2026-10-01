@@ -1,17 +1,18 @@
-[2026-10-01T06:35:29Z] === ENRICH ITERATION 1 START | repo=block/xcode-index-mcp sha=c89af82a ===
-[2026-10-01T06:35:29Z] [iter=1] PHASE START: enrich repo=block/xcode-index-mcp sha=c89af82a runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/c89af82a-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/c89af82aee64c42690a60c2dda6d9e0f8bf022e9.nq.gz
-[2026-10-01T06:35:30Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
-[2026-10-01T06:35:35Z] [iter=1] AST store loaded triples=74030 load_secs=4 mem_mb=197 MB
-[2026-10-01T06:35:35Z] [iter=1] Step 2: Finding LSP targets mem_mb=197 MB
-[2026-10-01T06:35:35Z] [iter=1] LSP targets found call_sites=581 imports=40 extends=0 implements=0 secs=0
-[2026-10-01T06:35:35Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=197 MB
-[2026-10-01T06:35:35Z] [iter=1] Position index built positions=4426 nodes_with_types=5502 secs=0 mem_mb=197 MB
-[2026-10-01T06:35:35Z] [iter=1] Step 3: Starting LSP resolution mem_mb=197 MB already_completed_types=[] already_completed_files=0
-[2026-10-01T06:35:35Z] [iter=1] Resolving target type target_type=call_site count=581
-[2026-10-01T06:36:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.7 files_done=1 resolved=41 errors=38 current=swift-service/Tests/IndexStoreMCPServiceTests/MockSymbolManager.swift
-[2026-10-01T06:36:21Z] [iter=1] Target type resolved target_type=call_site resolved=270 errors=175 secs=46 mem_mb=197 MB
-[2026-10-01T06:36:21Z] [iter=1] Resolving target type target_type=import_statement count=40
-[2026-10-01T06:36:37Z] [iter=1] Target type resolved target_type=import_statement resolved=23 errors=0 secs=16 mem_mb=197 MB
-[2026-10-01T06:36:50Z] [iter=1] Step 5: Writing final enrichment file triples=4986
-[2026-10-01T06:36:51Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/c89af82aee64c42690a60c2dda6d9e0f8bf022e9.nq.gz size_kb=87
-[2026-10-01T06:36:51Z] [iter=1] PHASE END: enrich elapsed_s=82 elapsed_min=1.4 total_triples=4986
+[2026-10-01T06:36:01Z] === ENRICH ITERATION 1 START | repo=block/xcode-index-mcp sha=c89af82a ===
+[2026-10-01T06:36:01Z] [iter=1] PHASE START: enrich repo=block/xcode-index-mcp sha=c89af82a runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/c89af82a-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/c89af82aee64c42690a60c2dda6d9e0f8bf022e9.nq.gz
+[2026-10-01T06:36:02Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-10-01T06:36:08Z] [iter=1] AST store loaded triples=74030 load_secs=5 mem_mb=199 MB
+[2026-10-01T06:36:08Z] [iter=1] Step 2: Finding LSP targets mem_mb=199 MB
+[2026-10-01T06:36:08Z] [iter=1] LSP targets found call_sites=581 imports=40 extends=0 implements=0 secs=0
+[2026-10-01T06:36:08Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=199 MB
+[2026-10-01T06:36:08Z] [iter=1] Position index built positions=4426 nodes_with_types=5502 secs=0 mem_mb=199 MB
+[2026-10-01T06:36:08Z] [iter=1] Step 3: Starting LSP resolution mem_mb=199 MB already_completed_types=[] already_completed_files=0
+[2026-10-01T06:36:08Z] [iter=1] Resolving target type target_type=call_site count=581
+[2026-10-01T06:36:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=0 resolved=0 errors=0 current=swift-service/Sources/TCPServer.swift
+[2026-10-01T06:37:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.0 files_done=13 resolved=269 errors=173 current=src/xcode_index_mcp/__init__.py
+[2026-10-01T06:37:02Z] [iter=1] Target type resolved target_type=call_site resolved=270 errors=175 secs=54 mem_mb=199 MB
+[2026-10-01T06:37:02Z] [iter=1] Resolving target type target_type=import_statement count=40
+[2026-10-01T06:37:19Z] [iter=1] Target type resolved target_type=import_statement resolved=23 errors=0 secs=17 mem_mb=199 MB
+[2026-10-01T06:37:33Z] [iter=1] Step 5: Writing final enrichment file triples=4993
+[2026-10-01T06:37:33Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/c89af82aee64c42690a60c2dda6d9e0f8bf022e9.nq.gz size_kb=87
+[2026-10-01T06:37:33Z] [iter=1] PHASE END: enrich elapsed_s=92 elapsed_min=1.5 total_triples=4993
