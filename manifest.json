@@ -40,6 +40,31 @@
       ],
       "ast": [
         "aggregate/ast/c89af82aee64c42690a60c2dda6d9e0f8bf022e9/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/c89af82aee64c42690a60c2dda6d9e0f8bf022e9.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "mcp",
+          "ecosystem": "PYPI",
+          "version": "1.25.0",
+          "githubOrg": "modelcontextprotocol",
+          "githubRepo": "python-sdk",
+          "githubCommit": "ef96a31671cc4c702d5b73b34306180313aedfb9",
+          "githubTag": "v1.25.0",
+          "githubUrl": "https://github.com/modelcontextprotocol/python-sdk",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "requests",
+          "ecosystem": "PYPI",
+          "version": "2.32.3",
+          "githubOrg": "psf",
+          "githubRepo": "requests",
+          "githubCommit": "0e322af87745eff34caffe4df68456ebc20d9068",
+          "githubTag": "v2.32.3",
+          "githubUrl": "https://github.com/psf/requests",
+          "source": "build_file:pyproject.toml"
+        }
       ]
     }
   ],
