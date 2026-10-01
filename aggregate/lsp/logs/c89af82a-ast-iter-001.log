@@ -1,0 +1,7 @@
+[2026-10-01T06:32:44Z] === AST ITERATION 1 START | repo=block/xcode-index-mcp sha=c89af82a ===
+[2026-10-01T06:32:44Z] [iter=1] PHASE START: ast repo=block/xcode-index-mcp sha=c89af82a
+[2026-10-01T06:32:44Z] [iter=1] Building AST aggregate chunks
+[2026-10-01T06:32:51Z] [iter=1] AST chunks built count=1 triples=74030
+[2026-10-01T06:32:51Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/c89af82aee64c42690a60c2dda6d9e0f8bf022e9/.complete
+[2026-10-01T06:32:51Z] [iter=1] PHASE END: ast elapsed_s=7 elapsed_min=0.1
+[2026-10-01T06:32:51Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json

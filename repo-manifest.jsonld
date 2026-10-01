@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/block/xcode-index-mcp/commit/c89af82aee64c42690a60c2dda6d9e0f8bf022e9",
       "git:hexsha": "c89af82aee64c42690a60c2dda6d9e0f8bf022e9",
-      "repolex:parseStatus": "metadata_complete",
+      "repolex:parseStatus": "ast_complete",
       "git:tagName": "main"
     }
   ]
