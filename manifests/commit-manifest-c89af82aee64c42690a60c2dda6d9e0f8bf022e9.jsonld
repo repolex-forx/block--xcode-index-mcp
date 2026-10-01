@@ -45,6 +45,12 @@
     },
     {
       "@type": "repolex:GraphFile",
+      "repolex:graphType": "repolex",
+      "repolex:graphFilePath": "aggregate/repolex/c89af82aee64c42690a60c2dda6d9e0f8bf022e9/chunk-001.nq.gz",
+      "repolex:graphFileSize": 292328
+    },
+    {
+      "@type": "repolex:GraphFile",
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/c89af82aee64c42690a60c2dda6d9e0f8bf022e9/chunk-001.nq.gz",
       "repolex:graphFileSize": 1061103
@@ -54,10 +60,16 @@
       "repolex:graphType": "lsp",
       "repolex:graphFilePath": "aggregate/lsp/c89af82aee64c42690a60c2dda6d9e0f8bf022e9.nq.gz",
       "repolex:graphFileSize": 89160
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "dep",
+      "repolex:graphFilePath": "dep/c89af82aee64c42690a60c2dda6d9e0f8bf022e9.nq.gz",
+      "repolex:graphFileSize": 520
     }
   ],
-  "repolex:parseStatus": "enrich_complete",
-  "repolex:parsedAt": "2026-10-01T06:26:55.816471+00:00",
+  "repolex:parseStatus": "parsed",
+  "repolex:parsedAt": "2026-10-01T06:39:54.324175+00:00",
   "repolex:parserVersion": "0.1.10",
   "git:tagName": "main",
   "repolex:dependencyRepo": [
