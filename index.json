@@ -1,0 +1,11 @@
+{
+  "org": "block",
+  "repo": "xcode-index-mcp",
+  "versions": [
+    {
+      "commit": "c89af82aee64c42690a60c2dda6d9e0f8bf022e9",
+      "tag": "main",
+      "parsed_at": "2026-10-01T06:39:54.324175+00:00"
+    }
+  ]
+}
